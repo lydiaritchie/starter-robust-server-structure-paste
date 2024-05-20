@@ -6,6 +6,7 @@ describe("path /pastes", () => {
   beforeEach(() => {
     pastes.splice(0, pastes.length);
   });
+  
 
   describe("GET method", () => {
     it("returns an array of pastes", async () => {
