@@ -42,7 +42,6 @@ app.post("/pastes", (req, res, next) => {
   } else {
     res.sendStatus(400);
   }
-
 });
 
 // Not found handler
